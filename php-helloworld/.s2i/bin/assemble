@@ -3,5 +3,8 @@
 echo My container is assembling
 
 /usr/libexec/s2i/assemble
+rc=$?
 
 echo My container is assembled
+
+exit $rc
