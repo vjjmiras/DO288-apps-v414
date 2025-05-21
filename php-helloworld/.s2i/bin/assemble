@@ -1,0 +1,7 @@
+#!bin/bash -e
+
+echo My container is assembling
+
+/usr/libexec/s2i/assemble
+
+echo My container is assembled

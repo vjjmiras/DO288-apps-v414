@@ -1,0 +1,5 @@
+#!bin/bash -e
+
+echo My container is running
+
+exec /usr/libexec/s2i/run
