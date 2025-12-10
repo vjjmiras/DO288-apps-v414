@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+echo Show custom s2i scripts
+/usr/libexec/s2i/assemble
+echo Ready to move on
